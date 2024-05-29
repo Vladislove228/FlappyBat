@@ -1,1 +1,2 @@
-It's a game like flappy bird 
+It's a game like flappy bird (CocosCreator and TypeScript)
+ 
