@@ -1,0 +1,480 @@
+{
+  "c2913d29-a0af-4819-bfa5-a57b9dd92432": {
+    "url": "db://assets/animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "e70dfbea-bfc9-4e74-93ba-ef39ad31f0f8": {
+    "url": "db://assets/prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "ec3375e8-1f57-4128-b84e-23add36d131f": {
+    "url": "db://assets/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "38d60381-6106-479a-9fba-9c782faee73c": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "425e6f5e-34da-4e82-ad8e-f7c687c3fc91": {
+    "url": "db://assets/textures",
+    "value": {},
+    "versionCode": 1
+  },
+  "14842078-6b59-4327-93c9-c2b21acadffb": {
+    "url": "db://assets/textures/animaciya_poleta",
+    "value": {},
+    "versionCode": 1
+  },
+  "dead1a2a-3bf4-44a1-b06c-fa419515664c": {
+    "url": "db://assets/textures/fon2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b92f4e1-35db-48cb-b975-f1c45b7904e7": {
+    "url": "db://assets/textures/fonLoose.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "34f6c649-5442-43e3-88bc-7fcb69f5371e": {
+    "url": "db://assets/textures/fon_glavniy_ekran3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b2b5bd90-e84b-4fb8-bfbc-573163bc5445": {
+    "url": "db://assets/textures/home_statik.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "66be7743-c93b-4586-af17-862cf3611c03": {
+    "url": "db://assets/textures/kurier.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "34f6c649-5442-43e3-88bc-7fcb69f5371e@6c48a": {
+    "url": "db://assets/textures/fon_glavniy_ekran3.png@6c48a",
+    "value": {
+      "depends": [
+        "34f6c649-5442-43e3-88bc-7fcb69f5371e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9b92f4e1-35db-48cb-b975-f1c45b7904e7@6c48a": {
+    "url": "db://assets/textures/fonLoose.png@6c48a",
+    "value": {
+      "depends": [
+        "9b92f4e1-35db-48cb-b975-f1c45b7904e7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dead1a2a-3bf4-44a1-b06c-fa419515664c@6c48a": {
+    "url": "db://assets/textures/fon2.png@6c48a",
+    "value": {
+      "depends": [
+        "dead1a2a-3bf4-44a1-b06c-fa419515664c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b2b5bd90-e84b-4fb8-bfbc-573163bc5445@6c48a": {
+    "url": "db://assets/textures/home_statik.png@6c48a",
+    "value": {
+      "depends": [
+        "b2b5bd90-e84b-4fb8-bfbc-573163bc5445"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b2b5bd90-e84b-4fb8-bfbc-573163bc5445@f9941": {
+    "url": "db://assets/textures/home_statik.png@f9941",
+    "value": {
+      "depends": [
+        "b2b5bd90-e84b-4fb8-bfbc-573163bc5445@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32da88a3-854f-42b7-a0e1-24e20098e09d": {
+    "url": "db://assets/textures/play_statik.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "66be7743-c93b-4586-af17-862cf3611c03@6c48a": {
+    "url": "db://assets/textures/kurier.png@6c48a",
+    "value": {
+      "depends": [
+        "66be7743-c93b-4586-af17-862cf3611c03"
+      ]
+    },
+    "versionCode": 1
+  },
+  "66be7743-c93b-4586-af17-862cf3611c03@f9941": {
+    "url": "db://assets/textures/kurier.png@f9941",
+    "value": {
+      "depends": [
+        "66be7743-c93b-4586-af17-862cf3611c03@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6": {
+    "url": "db://assets/textures/prepyadstvie.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dead1a2a-3bf4-44a1-b06c-fa419515664c@f9941": {
+    "url": "db://assets/textures/fon2.png@f9941",
+    "value": {
+      "depends": [
+        "dead1a2a-3bf4-44a1-b06c-fa419515664c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d318b6c-2e4f-484e-aebf-28b181a73d3f": {
+    "url": "db://assets/textures/restart_statik.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b92f4e1-35db-48cb-b975-f1c45b7904e7@f9941": {
+    "url": "db://assets/textures/fonLoose.png@f9941",
+    "value": {
+      "depends": [
+        "9b92f4e1-35db-48cb-b975-f1c45b7904e7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb3c26b2-f0e2-4be0-8170-bf299d6c896a": {
+    "url": "db://assets/textures/animaciya_poleta/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "34f6c649-5442-43e3-88bc-7fcb69f5371e@f9941": {
+    "url": "db://assets/textures/fon_glavniy_ekran3.png@f9941",
+    "value": {
+      "depends": [
+        "34f6c649-5442-43e3-88bc-7fcb69f5371e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "04158df7-134a-4b06-b0f8-912f0c8728b3": {
+    "url": "db://assets/textures/animaciya_poleta/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "32da88a3-854f-42b7-a0e1-24e20098e09d@6c48a": {
+    "url": "db://assets/textures/play_statik.png@6c48a",
+    "value": {
+      "depends": [
+        "32da88a3-854f-42b7-a0e1-24e20098e09d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d318b6c-2e4f-484e-aebf-28b181a73d3f@6c48a": {
+    "url": "db://assets/textures/restart_statik.png@6c48a",
+    "value": {
+      "depends": [
+        "1d318b6c-2e4f-484e-aebf-28b181a73d3f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32da88a3-854f-42b7-a0e1-24e20098e09d@f9941": {
+    "url": "db://assets/textures/play_statik.png@f9941",
+    "value": {
+      "depends": [
+        "32da88a3-854f-42b7-a0e1-24e20098e09d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5d9505de-5338-4859-9d0e-0fd2721b3b84": {
+    "url": "db://assets/textures/animaciya_poleta/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cb3c26b2-f0e2-4be0-8170-bf299d6c896a@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/1.png@6c48a",
+    "value": {
+      "depends": [
+        "cb3c26b2-f0e2-4be0-8170-bf299d6c896a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d318b6c-2e4f-484e-aebf-28b181a73d3f@f9941": {
+    "url": "db://assets/textures/restart_statik.png@f9941",
+    "value": {
+      "depends": [
+        "1d318b6c-2e4f-484e-aebf-28b181a73d3f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "05dd93d0-8da2-44c5-9710-28f23d77bd7d": {
+    "url": "db://assets/textures/animaciya_poleta/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cb3c26b2-f0e2-4be0-8170-bf299d6c896a@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/1.png@f9941",
+    "value": {
+      "depends": [
+        "cb3c26b2-f0e2-4be0-8170-bf299d6c896a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d076cc67-30b2-498a-b5ad-fba4be7abe29": {
+    "url": "db://assets/textures/animaciya_poleta/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "04158df7-134a-4b06-b0f8-912f0c8728b3@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/2.png@6c48a",
+    "value": {
+      "depends": [
+        "04158df7-134a-4b06-b0f8-912f0c8728b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "04158df7-134a-4b06-b0f8-912f0c8728b3@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/2.png@f9941",
+    "value": {
+      "depends": [
+        "04158df7-134a-4b06-b0f8-912f0c8728b3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7a9dce99-6bad-4e17-a5a8-82b8a75aa582": {
+    "url": "db://assets/textures/animaciya_poleta/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5d9505de-5338-4859-9d0e-0fd2721b3b84@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/3.png@6c48a",
+    "value": {
+      "depends": [
+        "5d9505de-5338-4859-9d0e-0fd2721b3b84"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5d9505de-5338-4859-9d0e-0fd2721b3b84@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/3.png@f9941",
+    "value": {
+      "depends": [
+        "5d9505de-5338-4859-9d0e-0fd2721b3b84@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "05dd93d0-8da2-44c5-9710-28f23d77bd7d@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/4.png@6c48a",
+    "value": {
+      "depends": [
+        "05dd93d0-8da2-44c5-9710-28f23d77bd7d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d076cc67-30b2-498a-b5ad-fba4be7abe29@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/5.png@6c48a",
+    "value": {
+      "depends": [
+        "d076cc67-30b2-498a-b5ad-fba4be7abe29"
+      ]
+    },
+    "versionCode": 1
+  },
+  "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6@6c48a": {
+    "url": "db://assets/textures/prepyadstvie.png@6c48a",
+    "value": {
+      "depends": [
+        "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "05dd93d0-8da2-44c5-9710-28f23d77bd7d@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/4.png@f9941",
+    "value": {
+      "depends": [
+        "05dd93d0-8da2-44c5-9710-28f23d77bd7d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d076cc67-30b2-498a-b5ad-fba4be7abe29@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/5.png@f9941",
+    "value": {
+      "depends": [
+        "d076cc67-30b2-498a-b5ad-fba4be7abe29@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7a9dce99-6bad-4e17-a5a8-82b8a75aa582@6c48a": {
+    "url": "db://assets/textures/animaciya_poleta/6.png@6c48a",
+    "value": {
+      "depends": [
+        "7a9dce99-6bad-4e17-a5a8-82b8a75aa582"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7a9dce99-6bad-4e17-a5a8-82b8a75aa582@f9941": {
+    "url": "db://assets/textures/animaciya_poleta/6.png@f9941",
+    "value": {
+      "depends": [
+        "7a9dce99-6bad-4e17-a5a8-82b8a75aa582@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6@f9941": {
+    "url": "db://assets/textures/prepyadstvie.png@f9941",
+    "value": {
+      "depends": [
+        "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d09bab93-f0eb-46df-9e67-54ff28345d6c": {
+    "url": "db://assets/scenes/MainScene.scene",
+    "value": {
+      "depends": [
+        "d09bab93-f0eb-46df-9e67-54ff28345d6c",
+        "dead1a2a-3bf4-44a1-b06c-fa419515664c@f9941",
+        "66be7743-c93b-4586-af17-862cf3611c03@f9941",
+        "460eb6ad-5daf-42a6-ac2f-c476da77235c",
+        "9b92f4e1-35db-48cb-b975-f1c45b7904e7@f9941",
+        "1d318b6c-2e4f-484e-aebf-28b181a73d3f@f9941",
+        "b2b5bd90-e84b-4fb8-bfbc-573163bc5445@f9941",
+        "49f74dbb-2ee0-4166-abf6-60e65cd55fd5",
+        "ccdc18d1-7854-439f-91ca-a975df650307",
+        "c5d29067-3ca3-4f50-9ce5-fe8b0f16ea7a"
+      ],
+      "dependScripts": [
+        "22339987-9a99-42f7-8834-02be9791d5e3",
+        "58db19aa-0e65-42e6-8610-68195e9388b0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "58db19aa-0e65-42e6-8610-68195e9388b0": {
+    "url": "db://assets/scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bf9621d9-8031-405c-8e25-3d1502d1a532": {
+    "url": "db://assets/animations/Fly.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "460eb6ad-5daf-42a6-ac2f-c476da77235c": {
+    "url": "db://assets/animations/Fly.anim",
+    "value": {
+      "depends": [
+        "cb3c26b2-f0e2-4be0-8170-bf299d6c896a@f9941",
+        "04158df7-134a-4b06-b0f8-912f0c8728b3@f9941",
+        "5d9505de-5338-4859-9d0e-0fd2721b3b84@f9941",
+        "05dd93d0-8da2-44c5-9710-28f23d77bd7d@f9941",
+        "d076cc67-30b2-498a-b5ad-fba4be7abe29@f9941",
+        "7a9dce99-6bad-4e17-a5a8-82b8a75aa582@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49f74dbb-2ee0-4166-abf6-60e65cd55fd5": {
+    "url": "db://assets/prefabs/TopObstacle.prefab",
+    "value": {
+      "depends": [
+        "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "ccdc18d1-7854-439f-91ca-a975df650307": {
+    "url": "db://assets/prefabs/BottomObstacle.prefab",
+    "value": {
+      "depends": [
+        "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "c5d29067-3ca3-4f50-9ce5-fe8b0f16ea7a": {
+    "url": "db://assets/prefabs/Sensor.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "4be80976-19f7-4e40-ba67-1783b6f95fb3": {
+    "url": "db://assets/scenes/MainMenu.scene",
+    "value": {
+      "depends": [
+        "4be80976-19f7-4e40-ba67-1783b6f95fb3",
+        "34f6c649-5442-43e3-88bc-7fcb69f5371e@f9941",
+        "32da88a3-854f-42b7-a0e1-24e20098e09d@f9941"
+      ],
+      "dependScripts": [
+        "8f4dd59b-3f06-43a2-b700-4ae3e75ffb44"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f4dd59b-3f06-43a2-b700-4ae3e75ffb44": {
+    "url": "db://assets/scripts/MainMenu.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "22339987-9a99-42f7-8834-02be9791d5e3": {
+    "url": "db://assets/scripts/FailureWindow.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

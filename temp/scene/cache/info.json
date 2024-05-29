@@ -1,0 +1,13 @@
+{
+    "systemInfo": {
+        "arch": "arm64",
+        "cpu": "Apple M1",
+        "version": "Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103"
+    },
+    "sceneListMap": {
+        "d09bab93-f0eb-46df-9e67-54ff28345d6c": "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainScene.scene",
+        "ccdc18d1-7854-439f-91ca-a975df650307": "/Users/vladislavkvinto/FlappyBat/assets/prefabs/BottomObstacle.prefab",
+        "4be80976-19f7-4e40-ba67-1783b6f95fb3": "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainMenu.scene"
+    },
+    "deviceMd5": "f8a15c342a60330548d170d60a9dc985"
+}

@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/vladislavkvinto/FlappyBat/assets/animations.meta": {
+      "time": 1716982011480.016
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs.meta": {
+      "time": 1716982011480.4814
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes.meta": {
+      "time": 1716982011480.7996
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts.meta": {
+      "time": 1716982011480.948
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures.meta": {
+      "time": 1716982011481.2588
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta.meta": {
+      "time": 1716982011482.9456
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/animations": {
+      "time": 1716985202527.743,
+      "uuid": "c2913d29-a0af-4819-bfa5-a57b9dd92432"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs": {
+      "time": 1716988840399.3022,
+      "uuid": "e70dfbea-bfc9-4e74-93ba-ef39ad31f0f8"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes": {
+      "time": 1716990867284.0625,
+      "uuid": "ec3375e8-1f57-4128-b84e-23add36d131f"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts": {
+      "time": 1716992898895.5537,
+      "uuid": "38d60381-6106-479a-9fba-9c782faee73c"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures": {
+      "time": 1684247495000,
+      "uuid": "425e6f5e-34da-4e82-ad8e-f7c687c3fc91"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta": {
+      "time": 1684247495000,
+      "uuid": "14842078-6b59-4327-93c9-c2b21acadffb"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fon2.png.meta": {
+      "time": 1716982011556.3545
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fonLoose.png.meta": {
+      "time": 1716982011563.4968
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fon_glavniy_ekran3.png.meta": {
+      "time": 1716982011573.877
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/home_statik.png.meta": {
+      "time": 1716982011531.265
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/kurier.png.meta": {
+      "time": 1716982011549.366
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/play_statik.png.meta": {
+      "time": 1716982011586.4932
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/prepyadstvie.png.meta": {
+      "time": 1716982011647.8586
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/restart_statik.png.meta": {
+      "time": 1716982011593.4705
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/1.png.meta": {
+      "time": 1716982011602.7703
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/2.png.meta": {
+      "time": 1716982011611.5413
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/3.png.meta": {
+      "time": 1716982011619.28
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/4.png.meta": {
+      "time": 1716982011624.3745
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/5.png.meta": {
+      "time": 1716982011625.9272
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/6.png.meta": {
+      "time": 1716982011630.6858
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/home_statik.png": {
+      "time": 1684247495000,
+      "uuid": "b2b5bd90-e84b-4fb8-bfbc-573163bc5445"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/kurier.png": {
+      "time": 1684247495000,
+      "uuid": "66be7743-c93b-4586-af17-862cf3611c03"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fon2.png": {
+      "time": 1684247495000,
+      "uuid": "dead1a2a-3bf4-44a1-b06c-fa419515664c"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fonLoose.png": {
+      "time": 1684247495000,
+      "uuid": "9b92f4e1-35db-48cb-b975-f1c45b7904e7"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/fon_glavniy_ekran3.png": {
+      "time": 1684247495000,
+      "uuid": "34f6c649-5442-43e3-88bc-7fcb69f5371e"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/play_statik.png": {
+      "time": 1684247495000,
+      "uuid": "32da88a3-854f-42b7-a0e1-24e20098e09d"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/restart_statik.png": {
+      "time": 1684247495000,
+      "uuid": "1d318b6c-2e4f-484e-aebf-28b181a73d3f"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/1.png": {
+      "time": 1684247495000,
+      "uuid": "cb3c26b2-f0e2-4be0-8170-bf299d6c896a"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/2.png": {
+      "time": 1684247495000,
+      "uuid": "04158df7-134a-4b06-b0f8-912f0c8728b3"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/3.png": {
+      "time": 1684247495000,
+      "uuid": "5d9505de-5338-4859-9d0e-0fd2721b3b84"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/4.png": {
+      "time": 1684247495000,
+      "uuid": "05dd93d0-8da2-44c5-9710-28f23d77bd7d"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/5.png": {
+      "time": 1684247495000,
+      "uuid": "d076cc67-30b2-498a-b5ad-fba4be7abe29"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/animaciya_poleta/6.png": {
+      "time": 1684247495000,
+      "uuid": "7a9dce99-6bad-4e17-a5a8-82b8a75aa582"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/textures/prepyadstvie.png": {
+      "time": 1684247495000,
+      "uuid": "da5ff0ff-ad43-4ed3-98e1-6652828fd3c6"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainScene.scene.meta": {
+      "time": 1716982203211.6182
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainScene.scene": {
+      "time": 1716992620441.4473,
+      "uuid": "d09bab93-f0eb-46df-9e67-54ff28345d6c"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.meta": {
+      "time": 1716982371657.6978
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts": {
+      "time": 1716990751673.1753,
+      "uuid": "58db19aa-0e65-42e6-8610-68195e9388b0"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/animations/Fly.anim.meta": {
+      "time": 1716985202538.181
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/animations/Fly.anim": {
+      "time": 1716985359478.5723,
+      "uuid": "460eb6ad-5daf-42a6-ac2f-c476da77235c"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/TopObstacle.prefab.meta": {
+      "time": 1716985880521.416
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/TopObstacle.prefab": {
+      "time": 1716988209112.1692,
+      "uuid": "49f74dbb-2ee0-4166-abf6-60e65cd55fd5"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/BottomObstacle.prefab.meta": {
+      "time": 1716985912426.2405
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/BottomObstacle.prefab": {
+      "time": 1716988220845.0854,
+      "uuid": "ccdc18d1-7854-439f-91ca-a975df650307"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/Sensor.prefab.meta": {
+      "time": 1716988840405.6973
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/prefabs/Sensor.prefab": {
+      "time": 1716988977387.6855,
+      "uuid": "c5d29067-3ca3-4f50-9ce5-fe8b0f16ea7a"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainMenu.scene.meta": {
+      "time": 1716990855375.971
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scenes/MainMenu.scene": {
+      "time": 1716991988473.2273,
+      "uuid": "4be80976-19f7-4e40-ba67-1783b6f95fb3"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.meta": {
+      "time": 1716990973997.892
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts": {
+      "time": 1716991066523.8167,
+      "uuid": "8f4dd59b-3f06-43a2-b700-4ae3e75ffb44"
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.meta": {
+      "time": 1716992092944.343
+    },
+    "/Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts": {
+      "time": 1716992898894.4985,
+      "uuid": "22339987-9a99-42f7-8834-02be9791d5e3"
+    }
+  },
+  "missing": {
+    "58db19aa-0e65-42e6-8610-68195e9388b0": {
+      "path": "/Users/vladislavkvinto/FlappyBat/assets/scripts/G.ts",
+      "time": 1716982371653.4944,
+      "removeTime": 1716982381637
+    },
+    "bf9621d9-8031-405c-8e25-3d1502d1a532": {
+      "path": "/Users/vladislavkvinto/FlappyBat/assets/animations/Fly.anim",
+      "time": 1716984719720.4495,
+      "removeTime": 1716985154072
+    },
+    "49f74dbb-2ee0-4166-abf6-60e65cd55fd5": {
+      "path": "/Users/vladislavkvinto/FlappyBat/assets/prefabs/prepyadstvie.prefab",
+      "time": 1716985768848.4167,
+      "removeTime": 1716985880516
+    },
+    "ccdc18d1-7854-439f-91ca-a975df650307": {
+      "path": "/Users/vladislavkvinto/FlappyBat/assets/prefabs/BotomObstacle.prefab",
+      "time": 1716985906274.8767,
+      "removeTime": 1716985912421
+    },
+    "4be80976-19f7-4e40-ba67-1783b6f95fb3": {
+      "path": "/Users/vladislavkvinto/FlappyBat/assets/scenes/Ma.scene",
+      "time": 1716990855373.6868,
+      "removeTime": 1716990867284
+    }
+  }
+}

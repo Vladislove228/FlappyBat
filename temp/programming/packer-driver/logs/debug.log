@@ -1,0 +1,1076 @@
+13:34:43 debug: 29/05/2024, 13:34:43
+13:34:43 debug: Project: /Users/vladislavkvinto/FlappyBat
+13:34:43 debug: Targets: editor,preview
+13:34:43 debug: Incremental file seems great.
+13:34:43 debug: Engine path: /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+13:34:43 debug: Initializing target [Editor]
+13:34:43 debug: Loading cache
+13:34:43 debug: Loading cache costs 4.454625129699707ms.
+13:34:43 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+13:34:43 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+13:34:43 debug: Initializing target [Preview]
+13:34:43 debug: Loading cache
+13:34:43 debug: Loading cache costs 1.942957878112793ms.
+13:34:43 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+13:34:43 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+13:34:43 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "/Users/vladislavkvinto/FlappyBat/assets"
+  }
+]
+13:34:43 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///Users/vladislavkvinto/FlappyBat/assets/"
+  }
+}
+13:34:43 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///Users/vladislavkvinto/FlappyBat/assets/"
+  }
+}
+13:34:43 debug: Pulling asset-db.
+13:34:43 debug: Fetch asset-db cost: 5.372958183288574ms.
+13:34:43 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+13:34:43 debug: Target(editor) build started.
+13:34:43 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 01:00:35 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time)
+13:34:43 debug: Inspect cce:/internal/x/cc
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+13:34:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:07:38 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time)
+13:34:43 debug: Inspect cce:/internal/x/prerequisite-imports
+13:34:43 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Target(editor) ends with cost 155.6326665878296ms.
+13:34:43 debug: Target(preview) build started.
+13:34:43 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 01:00:35 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time)
+13:34:43 debug: Inspect cce:/internal/x/cc
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+13:34:43 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+13:34:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:07:39 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time)
+13:34:43 debug: Inspect cce:/internal/x/prerequisite-imports
+13:34:43 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:34:43 debug: Target(preview) ends with cost 98.3913745880127ms.
+13:34:44 debug: Pulling asset-db.
+13:34:45 debug: Fetch asset-db cost: 1194.4023332595825ms.
+13:34:45 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+13:34:45 debug: Target(editor) build started.
+13:34:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:19 GMT+0100 (Central European Standard Time)
+13:34:45 debug: Inspect cce:/internal/x/prerequisite-imports
+13:34:45 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:34:45 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:34:45 debug: Target(editor) ends with cost 90.90608310699463ms.
+13:34:45 debug: Target(preview) build started.
+13:34:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:00:17 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:00:19 GMT+0100 (Central European Standard Time)
+13:34:45 debug: Inspect cce:/internal/x/prerequisite-imports
+13:34:45 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:34:45 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:34:46 debug: Target(preview) ends with cost 106.7742919921875ms.
+13:56:54 debug: Dispatch build request for time accumulated 1 asset changes.
+13:56:54 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+13:56:54 debug: Target(editor) build started.
+13:56:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:00:19 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:22:27 GMT+0100 (Central European Standard Time)
+13:56:54 debug: Inspect cce:/internal/x/prerequisite-imports
+13:56:54 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:56:54 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:56:54 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 13:32:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 13:51:25 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+13:56:54 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Target(editor) ends with cost 158.50625038146973ms.
+13:56:54 debug: Target(preview) build started.
+13:56:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:00:19 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:22:27 GMT+0100 (Central European Standard Time)
+13:56:54 debug: Inspect cce:/internal/x/prerequisite-imports
+13:56:54 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+13:56:54 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+13:56:54 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 13:32:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 13:51:25 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+13:56:54 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+13:56:54 debug: Target(preview) ends with cost 130.42875003814697ms.
+14:02:33 debug: Dispatch build request for time accumulated 1 asset changes.
+14:02:33 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:02:33 debug: Target(editor) build started.
+14:02:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:22:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:28:06 GMT+0100 (Central European Standard Time)
+14:02:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:02:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:02:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:02:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 13:51:25 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:02:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:02:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Target(editor) ends with cost 174.92374992370605ms.
+14:02:33 debug: Target(preview) build started.
+14:02:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:22:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:28:06 GMT+0100 (Central European Standard Time)
+14:02:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:02:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:02:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:02:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 13:51:25 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:02:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:02:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:02:33 debug: Target(preview) ends with cost 220.7827501296997ms.
+14:09:31 debug: Dispatch build request for time accumulated 1 asset changes.
+14:09:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:09:31 debug: Target(editor) build started.
+14:09:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:28:06 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:35:04 GMT+0100 (Central European Standard Time)
+14:09:31 debug: Inspect cce:/internal/x/prerequisite-imports
+14:09:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:09:31 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:09:31 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:02:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:09:20 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:09:31 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Target(editor) ends with cost 91.35083293914795ms.
+14:09:31 debug: Target(preview) build started.
+14:09:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:28:06 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:35:04 GMT+0100 (Central European Standard Time)
+14:09:31 debug: Inspect cce:/internal/x/prerequisite-imports
+14:09:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:09:31 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:09:31 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:02:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:09:20 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:09:31 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:09:31 debug: Target(preview) ends with cost 167.93141746520996ms.
+14:10:50 debug: Dispatch build request for time accumulated 1 asset changes.
+14:10:50 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:10:50 debug: Target(editor) build started.
+14:10:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:35:04 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:36:24 GMT+0100 (Central European Standard Time)
+14:10:51 debug: Inspect cce:/internal/x/prerequisite-imports
+14:10:51 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:10:51 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:10:51 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:09:20 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:10:49 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:10:51 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Target(editor) ends with cost 100.91620922088623ms.
+14:10:51 debug: Target(preview) build started.
+14:10:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:35:04 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 01:36:24 GMT+0100 (Central European Standard Time)
+14:10:51 debug: Inspect cce:/internal/x/prerequisite-imports
+14:10:51 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:10:51 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:10:51 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:09:20 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:10:49 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:10:51 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:10:51 debug: Target(preview) ends with cost 85.02704048156738ms.
+14:34:33 debug: Dispatch build request for time accumulated 1 asset changes.
+14:34:33 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:34:33 debug: Target(editor) build started.
+14:34:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:36:24 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:00:07 GMT+0100 (Central European Standard Time)
+14:34:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:34:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:34:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:34:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:10:49 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:34:22 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:34:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:34:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:33 debug: Target(editor) ends with cost 120.43820858001709ms.
+14:34:33 debug: Target(preview) build started.
+14:34:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 01:36:24 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:00:07 GMT+0100 (Central European Standard Time)
+14:34:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:34:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:34:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:34:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:10:49 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:34:22 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:34:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:34:34 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:34 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:34 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:34:34 debug: Target(preview) ends with cost 276.4444169998169ms.
+14:39:19 debug: Dispatch build request for time accumulated 1 asset changes.
+14:39:19 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:39:19 debug: Target(editor) build started.
+14:39:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:04:52 GMT+0100 (Central European Standard Time)
+14:39:19 debug: Inspect cce:/internal/x/prerequisite-imports
+14:39:19 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:39:19 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:39:19 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:34:22 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:39:09 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:39:19 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Target(editor) ends with cost 152.55295848846436ms.
+14:39:19 debug: Target(preview) build started.
+14:39:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:04:52 GMT+0100 (Central European Standard Time)
+14:39:19 debug: Inspect cce:/internal/x/prerequisite-imports
+14:39:19 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:39:19 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:39:19 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:34:22 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:39:09 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:39:19 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:39:19 debug: Target(preview) ends with cost 183.11795806884766ms.
+14:40:35 debug: Dispatch build request for time accumulated 1 asset changes.
+14:40:35 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:40:35 debug: Target(editor) build started.
+14:40:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:04:52 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:06:08 GMT+0100 (Central European Standard Time)
+14:40:35 debug: Inspect cce:/internal/x/prerequisite-imports
+14:40:35 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:40:35 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:40:35 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:39:09 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:40:34 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:40:35 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Target(editor) ends with cost 93.51858329772949ms.
+14:40:35 debug: Target(preview) build started.
+14:40:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:04:52 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:06:08 GMT+0100 (Central European Standard Time)
+14:40:35 debug: Inspect cce:/internal/x/prerequisite-imports
+14:40:35 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:40:35 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:40:35 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:39:09 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:40:34 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:40:35 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:40:35 debug: Target(preview) ends with cost 91.83054256439209ms.
+14:42:11 debug: Dispatch build request for time accumulated 1 asset changes.
+14:42:11 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:42:11 debug: Target(editor) build started.
+14:42:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:06:08 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:07:44 GMT+0100 (Central European Standard Time)
+14:42:11 debug: Inspect cce:/internal/x/prerequisite-imports
+14:42:11 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:42:11 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:42:11 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:40:34 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:42:05 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:42:11 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Target(editor) ends with cost 187.34937477111816ms.
+14:42:11 debug: Target(preview) build started.
+14:42:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:06:08 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:07:45 GMT+0100 (Central European Standard Time)
+14:42:11 debug: Inspect cce:/internal/x/prerequisite-imports
+14:42:11 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:42:11 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:42:11 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:40:34 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:42:05 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:42:11 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:42:11 debug: Target(preview) ends with cost 226.0324583053589ms.
+14:43:03 debug: Dispatch build request for time accumulated 1 asset changes.
+14:43:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:43:03 debug: Target(editor) build started.
+14:43:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:07:44 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:08:36 GMT+0100 (Central European Standard Time)
+14:43:03 debug: Inspect cce:/internal/x/prerequisite-imports
+14:43:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:43:03 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:43:03 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:42:05 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:43:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:43:03 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Target(editor) ends with cost 101.12891674041748ms.
+14:43:03 debug: Target(preview) build started.
+14:43:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:07:45 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:08:36 GMT+0100 (Central European Standard Time)
+14:43:03 debug: Inspect cce:/internal/x/prerequisite-imports
+14:43:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:43:03 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:43:03 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:42:05 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:43:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:43:03 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:43:03 debug: Target(preview) ends with cost 324.05095767974854ms.
+14:45:56 debug: Dispatch build request for time accumulated 1 asset changes.
+14:45:56 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:45:56 debug: Target(editor) build started.
+14:45:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:08:36 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:11:29 GMT+0100 (Central European Standard Time)
+14:45:56 debug: Inspect cce:/internal/x/prerequisite-imports
+14:45:56 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:45:56 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:45:56 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:43:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:45:23 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:45:56 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Target(editor) ends with cost 141.21637439727783ms.
+14:45:56 debug: Target(preview) build started.
+14:45:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:08:36 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:11:29 GMT+0100 (Central European Standard Time)
+14:45:56 debug: Inspect cce:/internal/x/prerequisite-imports
+14:45:56 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:45:56 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:45:56 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:43:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:45:23 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:45:56 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:45:56 debug: Target(preview) ends with cost 231.03858470916748ms.
+14:48:24 debug: Dispatch build request for time accumulated 1 asset changes.
+14:48:24 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:48:24 debug: Target(editor) build started.
+14:48:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:11:29 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:13:57 GMT+0100 (Central European Standard Time)
+14:48:24 debug: Inspect cce:/internal/x/prerequisite-imports
+14:48:24 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:48:24 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:48:24 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:45:23 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:48:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:48:24 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:24 debug: Target(editor) ends with cost 127.07658290863037ms.
+14:48:24 debug: Target(preview) build started.
+14:48:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:11:29 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:13:58 GMT+0100 (Central European Standard Time)
+14:48:24 debug: Inspect cce:/internal/x/prerequisite-imports
+14:48:24 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:48:24 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:48:24 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:45:23 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:48:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:48:24 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:24 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:25 debug: Target(preview) ends with cost 390.2229166030884ms.
+14:52:18 debug: Dispatch build request for time accumulated 1 asset changes.
+14:52:18 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:52:18 debug: Target(editor) build started.
+14:52:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:13:57 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:17:51 GMT+0100 (Central European Standard Time)
+14:52:18 debug: Inspect cce:/internal/x/prerequisite-imports
+14:52:18 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:52:18 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:52:18 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:48:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:52:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:52:18 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Target(editor) ends with cost 110.92545890808105ms.
+14:52:18 debug: Target(preview) build started.
+14:52:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:13:58 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:17:52 GMT+0100 (Central European Standard Time)
+14:52:18 debug: Inspect cce:/internal/x/prerequisite-imports
+14:52:18 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:52:18 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:52:18 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:48:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:52:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:52:18 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:52:18 debug: Target(preview) ends with cost 166.65837478637695ms.
+14:55:52 debug: Dispatch build request for time accumulated 1 asset changes.
+14:55:52 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:55:52 debug: Target(editor) build started.
+14:55:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:17:51 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:21:25 GMT+0100 (Central European Standard Time)
+14:55:52 debug: Inspect cce:/internal/x/prerequisite-imports
+14:55:52 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:55:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:55:52 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:52:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:55:50 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:55:52 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Target(editor) ends with cost 100.11749935150146ms.
+14:55:52 debug: Target(preview) build started.
+14:55:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:17:52 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:21:25 GMT+0100 (Central European Standard Time)
+14:55:52 debug: Inspect cce:/internal/x/prerequisite-imports
+14:55:52 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:55:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+14:55:52 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:52:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 14:55:50 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+14:55:52 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:55:52 debug: Target(preview) ends with cost 86.47833347320557ms.
+15:01:01 debug: Dispatch build request for time accumulated 1 asset changes.
+15:01:01 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:01:01 debug: Target(editor) build started.
+15:01:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:21:25 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:26:34 GMT+0100 (Central European Standard Time)
+15:01:01 debug: Inspect cce:/internal/x/prerequisite-imports
+15:01:01 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:01:01 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:01:01 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:55:50 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:01:01 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:01:01 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:01 debug: Target(editor) ends with cost 105.48950004577637ms.
+15:01:01 debug: Target(preview) build started.
+15:01:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:21:25 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:26:35 GMT+0100 (Central European Standard Time)
+15:01:01 debug: Inspect cce:/internal/x/prerequisite-imports
+15:01:01 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:01:01 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:01:01 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 14:55:50 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:01:01 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:01:01 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:01 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:01:02 debug: Target(preview) ends with cost 401.24120903015137ms.
+15:22:56 debug: Dispatch build request for time accumulated 1 asset changes.
+15:22:56 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:22:56 debug: Target(editor) build started.
+15:22:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:26:34 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:48:29 GMT+0100 (Central European Standard Time)
+15:22:56 debug: Inspect cce:/internal/x/prerequisite-imports
+15:22:56 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:22:56 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:22:56 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:01:01 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:22:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:22:56 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Target(editor) ends with cost 97.76762580871582ms.
+15:22:56 debug: Target(preview) build started.
+15:22:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:26:35 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:48:29 GMT+0100 (Central European Standard Time)
+15:22:56 debug: Inspect cce:/internal/x/prerequisite-imports
+15:22:56 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:22:56 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:22:56 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:01:01 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:22:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:22:56 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:22:56 debug: Target(preview) ends with cost 176.14204120635986ms.
+15:28:21 debug: Dispatch build request for time accumulated 1 asset changes.
+15:28:21 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:28:21 debug: Target(editor) build started.
+15:28:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:48:29 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:53:55 GMT+0100 (Central European Standard Time)
+15:28:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:28:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:28:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:22:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:28:17 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:28:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:21 debug: Target(editor) ends with cost 191.2194595336914ms.
+15:28:21 debug: Target(preview) build started.
+15:28:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:48:29 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:53:55 GMT+0100 (Central European Standard Time)
+15:28:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:28:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:28:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:22:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:28:17 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:28:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:28:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:28:22 debug: Target(preview) ends with cost 183.45841693878174ms.
+15:30:21 debug: Dispatch build request for time accumulated 1 asset changes.
+15:30:21 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:30:21 debug: Target(editor) build started.
+15:30:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:53:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:55:55 GMT+0100 (Central European Standard Time)
+15:30:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:30:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:30:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:30:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:28:17 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:30:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:30:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:30:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:21 debug: Target(editor) ends with cost 131.4992914199829ms.
+15:30:21 debug: Target(preview) build started.
+15:30:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:53:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:55:55 GMT+0100 (Central European Standard Time)
+15:30:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:30:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:30:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:30:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:28:17 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:30:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:30:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:30:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:30:22 debug: Target(preview) ends with cost 96.43170833587646ms.
+15:33:14 debug: Dispatch build request for time accumulated 1 asset changes.
+15:33:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:33:14 debug: Target(editor) build started.
+15:33:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:55:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:58:48 GMT+0100 (Central European Standard Time)
+15:33:14 debug: Inspect cce:/internal/x/prerequisite-imports
+15:33:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:33:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:33:14 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:30:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:31:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:33:14 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:33:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:14 debug: Target(editor) ends with cost 138.85266780853271ms.
+15:33:14 debug: Target(preview) build started.
+15:33:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:55:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 02:58:48 GMT+0100 (Central European Standard Time)
+15:33:14 debug: Inspect cce:/internal/x/prerequisite-imports
+15:33:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:33:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:33:14 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:30:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:31:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:33:14 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:33:15 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:15 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:15 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:33:15 debug: Target(preview) ends with cost 395.138916015625ms.
+15:35:33 debug: Dispatch build request for time accumulated 1 asset changes.
+15:35:33 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:35:33 debug: Target(editor) build started.
+15:35:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:58:48 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:01:06 GMT+0100 (Central European Standard Time)
+15:35:33 debug: Inspect cce:/internal/x/prerequisite-imports
+15:35:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:35:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:35:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:31:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:33:26 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:35:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Target(editor) ends with cost 150.01624965667725ms.
+15:35:33 debug: Target(preview) build started.
+15:35:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:58:48 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:01:07 GMT+0100 (Central European Standard Time)
+15:35:33 debug: Inspect cce:/internal/x/prerequisite-imports
+15:35:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:35:33 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:35:33 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:31:15 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:33:26 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:35:33 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:33 debug: Target(preview) ends with cost 119.82212543487549ms.
+15:35:54 debug: Dispatch build request for time accumulated 1 asset changes.
+15:35:54 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:35:54 debug: Target(editor) build started.
+15:35:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:01:06 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:01:27 GMT+0100 (Central European Standard Time)
+15:35:54 debug: Inspect cce:/internal/x/prerequisite-imports
+15:35:54 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:35:54 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:35:54 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:33:26 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:35:54 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:35:54 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Target(editor) ends with cost 195.9890832901001ms.
+15:35:54 debug: Target(preview) build started.
+15:35:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:01:07 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:01:27 GMT+0100 (Central European Standard Time)
+15:35:54 debug: Inspect cce:/internal/x/prerequisite-imports
+15:35:54 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:35:54 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:35:54 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:33:26 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:35:54 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:35:54 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:35:54 debug: Target(preview) ends with cost 130.77895736694336ms.
+15:38:21 debug: Dispatch build request for time accumulated 1 asset changes.
+15:38:21 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:38:21 debug: Target(editor) build started.
+15:38:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:01:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:03:55 GMT+0100 (Central European Standard Time)
+15:38:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:38:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:38:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:38:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:35:54 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:38:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:38:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:38:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:21 debug: Target(editor) ends with cost 122.75470924377441ms.
+15:38:21 debug: Target(preview) build started.
+15:38:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:01:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:03:55 GMT+0100 (Central European Standard Time)
+15:38:21 debug: Inspect cce:/internal/x/prerequisite-imports
+15:38:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:38:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:38:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:35:54 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:38:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:38:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:38:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:22 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:38:22 debug: Target(preview) ends with cost 113.2619161605835ms.
+15:47:03 debug: Dispatch build request for time accumulated 1 asset changes.
+15:47:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:47:03 debug: Target(editor) build started.
+15:47:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:03:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:12:36 GMT+0100 (Central European Standard Time)
+15:47:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:47:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:47:03 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:47:03 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:38:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:47:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:47:03 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:47:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:03 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:03 debug: Target(editor) ends with cost 223.84120845794678ms.
+15:47:03 debug: Target(preview) build started.
+15:47:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:03:55 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:12:37 GMT+0100 (Central European Standard Time)
+15:47:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:47:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:47:03 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:47:03 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:38:18 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:47:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:47:03 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:47:04 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:04 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:04 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:04 debug: Target(preview) ends with cost 424.98874950408936ms.
+15:47:53 debug: Dispatch build request for time accumulated 1 asset changes.
+15:47:53 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:47:53 debug: Target(editor) build started.
+15:47:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:12:36 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:13:27 GMT+0100 (Central European Standard Time)
+15:47:53 debug: Inspect cce:/internal/x/prerequisite-imports
+15:47:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:47:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:47:53 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:47:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:47:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:47:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:53 debug: Target(editor) ends with cost 130.16262531280518ms.
+15:47:53 debug: Target(preview) build started.
+15:47:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:12:37 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:13:27 GMT+0100 (Central European Standard Time)
+15:47:53 debug: Inspect cce:/internal/x/prerequisite-imports
+15:47:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:47:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:47:53 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:47:02 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:47:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:47:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:47:54 debug: Target(preview) ends with cost 127.99633312225342ms.
+15:52:31 debug: Dispatch build request for time accumulated 1 asset changes.
+15:52:32 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:52:32 debug: Target(editor) build started.
+15:52:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:13:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:18:05 GMT+0100 (Central European Standard Time)
+15:52:32 debug: Inspect cce:/internal/x/prerequisite-imports
+15:52:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:52:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:52:32 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:47:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:52:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:52:32 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Target(editor) ends with cost 277.0320415496826ms.
+15:52:32 debug: Target(preview) build started.
+15:52:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:13:27 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:18:05 GMT+0100 (Central European Standard Time)
+15:52:32 debug: Inspect cce:/internal/x/prerequisite-imports
+15:52:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:52:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:52:32 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts. Last mtime: Wed May 29 2024 15:47:51 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0, Current mtime: Wed May 29 2024 15:52:31 GMT+0200 (Central European Summer Time)@58db19aa-0e65-42e6-8610-68195e9388b0
+15:52:32 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+15:52:32 debug: Target(preview) ends with cost 301.2232084274292ms.
+15:56:14 debug: Dispatch build request for time accumulated 1 asset changes.
+15:56:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:56:14 debug: Target(editor) build started.
+15:56:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:18:05 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:21:47 GMT+0100 (Central European Standard Time)
+15:56:14 debug: Inspect cce:/internal/x/prerequisite-imports
+15:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:56:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:56:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+15:56:14 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Target(editor) ends with cost 94.87558364868164ms.
+15:56:14 debug: Target(preview) build started.
+15:56:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:18:05 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:21:47 GMT+0100 (Central European Standard Time)
+15:56:14 debug: Inspect cce:/internal/x/prerequisite-imports
+15:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:56:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:56:14 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+15:56:14 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:56:14 debug: Target(preview) ends with cost 59.90408420562744ms.
+15:57:46 debug: Dispatch build request for time accumulated 1 asset changes.
+15:57:46 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:57:46 debug: Target(editor) build started.
+15:57:46 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:21:47 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:23:20 GMT+0100 (Central European Standard Time)
+15:57:46 debug: Inspect cce:/internal/x/prerequisite-imports
+15:57:46 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:57:46 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:57:46 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+15:57:46 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts. Last mtime: Wed May 29 2024 15:56:13 GMT+0200 (Central European Summer Time)@8f4dd59b-3f06-43a2-b700-4ae3e75ffb44, Current mtime: Wed May 29 2024 15:57:46 GMT+0200 (Central European Summer Time)@8f4dd59b-3f06-43a2-b700-4ae3e75ffb44
+15:57:46 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:46 debug: Target(editor) ends with cost 77.27270889282227ms.
+15:57:46 debug: Target(preview) build started.
+15:57:46 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:21:47 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:23:20 GMT+0100 (Central European Standard Time)
+15:57:46 debug: Inspect cce:/internal/x/prerequisite-imports
+15:57:46 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:57:46 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+15:57:46 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+15:57:46 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts. Last mtime: Wed May 29 2024 15:56:13 GMT+0200 (Central European Summer Time)@8f4dd59b-3f06-43a2-b700-4ae3e75ffb44, Current mtime: Wed May 29 2024 15:57:46 GMT+0200 (Central European Summer Time)@8f4dd59b-3f06-43a2-b700-4ae3e75ffb44
+15:57:46 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:46 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts as cce:/internal/x/cc.
+15:57:47 debug: Target(preview) ends with cost 214.2304573059082ms.
+16:14:52 debug: Dispatch build request for time accumulated 1 asset changes.
+16:14:52 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:14:52 debug: Target(editor) build started.
+16:14:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:23:20 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:40:26 GMT+0100 (Central European Standard Time)
+16:14:52 debug: Inspect cce:/internal/x/prerequisite-imports
+16:14:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:14:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:14:53 debug: Target(editor) ends with cost 87.01529216766357ms.
+16:14:53 debug: Target(preview) build started.
+16:14:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:23:20 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:40:26 GMT+0100 (Central European Standard Time)
+16:14:53 debug: Inspect cce:/internal/x/prerequisite-imports
+16:14:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:14:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:14:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:14:53 debug: Target(preview) ends with cost 55.67250061035156ms.
+16:15:52 debug: Dispatch build request for time accumulated 1 asset changes.
+16:15:52 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:15:52 debug: Target(editor) build started.
+16:15:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:40:26 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:41:25 GMT+0100 (Central European Standard Time)
+16:15:52 debug: Inspect cce:/internal/x/prerequisite-imports
+16:15:52 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:15:52 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:14:52 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:15:42 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:15:52 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:15:52 debug: Target(editor) ends with cost 69.08745861053467ms.
+16:15:52 debug: Target(preview) build started.
+16:15:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:40:26 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:41:25 GMT+0100 (Central European Standard Time)
+16:15:52 debug: Inspect cce:/internal/x/prerequisite-imports
+16:15:52 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:15:52 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:14:52 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:15:42 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:15:52 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:15:52 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:15:52 debug: Target(preview) ends with cost 71.03416633605957ms.
+16:18:05 debug: Dispatch build request for time accumulated 1 asset changes.
+16:18:05 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:18:05 debug: Target(editor) build started.
+16:18:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:41:25 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:43:38 GMT+0100 (Central European Standard Time)
+16:18:05 debug: Inspect cce:/internal/x/prerequisite-imports
+16:18:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:18:05 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:15:42 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:18:04 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:18:05 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:18:05 debug: Target(editor) ends with cost 137.2683343887329ms.
+16:18:05 debug: Target(preview) build started.
+16:18:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:41:25 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:43:38 GMT+0100 (Central European Standard Time)
+16:18:05 debug: Inspect cce:/internal/x/prerequisite-imports
+16:18:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:18:05 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:15:42 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:18:04 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:18:05 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:18:05 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:18:05 debug: Target(preview) ends with cost 74.54345798492432ms.
+16:19:53 debug: Dispatch build request for time accumulated 1 asset changes.
+16:19:53 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:19:53 debug: Target(editor) build started.
+16:19:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:43:38 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:45:26 GMT+0100 (Central European Standard Time)
+16:19:53 debug: Inspect cce:/internal/x/prerequisite-imports
+16:19:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:19:53 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:18:04 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:19:53 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:19:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:19:53 debug: Target(editor) ends with cost 68.28733348846436ms.
+16:19:53 debug: Target(preview) build started.
+16:19:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:43:38 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:45:26 GMT+0100 (Central European Standard Time)
+16:19:53 debug: Inspect cce:/internal/x/prerequisite-imports
+16:19:53 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:19:53 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:18:04 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:19:53 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:19:53 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:19:53 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:19:53 debug: Target(preview) ends with cost 69.69650077819824ms.
+16:20:38 debug: Dispatch build request for time accumulated 1 asset changes.
+16:20:38 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:20:38 debug: Target(editor) build started.
+16:20:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:45:26 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:46:11 GMT+0100 (Central European Standard Time)
+16:20:38 debug: Inspect cce:/internal/x/prerequisite-imports
+16:20:38 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:20:38 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:19:53 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:20:30 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:20:38 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:20:38 debug: Target(editor) ends with cost 54.86216640472412ms.
+16:20:38 debug: Target(preview) build started.
+16:20:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:45:26 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:46:11 GMT+0100 (Central European Standard Time)
+16:20:38 debug: Inspect cce:/internal/x/prerequisite-imports
+16:20:38 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:20:38 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:19:53 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:20:30 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:20:38 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:20:38 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:20:38 debug: Target(preview) ends with cost 26.30049991607666ms.
+16:23:24 debug: Dispatch build request for time accumulated 1 asset changes.
+16:23:24 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:23:24 debug: Target(editor) build started.
+16:23:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:46:11 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:48:58 GMT+0100 (Central European Standard Time)
+16:23:24 debug: Inspect cce:/internal/x/prerequisite-imports
+16:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:23:25 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:20:30 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:23:23 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:23:25 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:23:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:23:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:23:25 debug: Target(editor) ends with cost 114.29550075531006ms.
+16:23:25 debug: Target(preview) build started.
+16:23:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:46:11 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:48:58 GMT+0100 (Central European Standard Time)
+16:23:25 debug: Inspect cce:/internal/x/prerequisite-imports
+16:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:23:25 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:20:30 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:23:23 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:23:25 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:23:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:23:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:23:25 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:23:25 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:23:25 debug: Target(preview) ends with cost 66.57775020599365ms.
+16:27:32 debug: Dispatch build request for time accumulated 1 asset changes.
+16:27:32 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:27:32 debug: Target(editor) build started.
+16:27:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:48:58 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:53:05 GMT+0100 (Central European Standard Time)
+16:27:32 debug: Inspect cce:/internal/x/prerequisite-imports
+16:27:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:27:32 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:23:23 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:27:25 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:27:32 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:27:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:27:32 debug: Target(editor) ends with cost 65.42270755767822ms.
+16:27:32 debug: Target(preview) build started.
+16:27:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:48:58 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:53:05 GMT+0100 (Central European Standard Time)
+16:27:32 debug: Inspect cce:/internal/x/prerequisite-imports
+16:27:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:27:32 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:23:23 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:27:25 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:27:32 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:27:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:27:32 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:27:32 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:27:32 debug: Target(preview) ends with cost 49.0170841217041ms.
+16:28:21 debug: Dispatch build request for time accumulated 1 asset changes.
+16:28:21 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:28:21 debug: Target(editor) build started.
+16:28:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:53:05 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:53:54 GMT+0100 (Central European Standard Time)
+16:28:21 debug: Inspect cce:/internal/x/prerequisite-imports
+16:28:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:28:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:27:25 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:28:18 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:28:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:28:21 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:28:21 debug: Target(editor) ends with cost 53.55833339691162ms.
+16:28:21 debug: Target(preview) build started.
+16:28:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:53:05 GMT+0100 (Central European Standard Time), Current mtime: Thu Jan 01 1970 03:53:54 GMT+0100 (Central European Standard Time)
+16:28:21 debug: Inspect cce:/internal/x/prerequisite-imports
+16:28:21 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts.
+16:28:21 debug: Detected change: file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts. Last mtime: Wed May 29 2024 16:27:25 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3, Current mtime: Wed May 29 2024 16:28:18 GMT+0200 (Central European Summer Time)@22339987-9a99-42f7-8834-02be9791d5e3
+16:28:21 debug: Inspect file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts
+16:28:21 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/code-quality/cr.mjs.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve cc from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as cce:/internal/x/cc.
+16:28:21 debug: Resolve db://assets/scripts/GameManager from file:///Users/vladislavkvinto/FlappyBat/assets/scripts/FailureWindow.ts as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/GameManager.ts.
+16:28:21 debug: Resolve file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///Users/vladislavkvinto/FlappyBat/assets/scripts/MainMenu.ts.
+16:28:21 debug: Target(preview) ends with cost 46.713375091552734ms.

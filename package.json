@@ -1,0 +1,10 @@
+{
+  "name": "FlappyBat",
+  "uuid": "ad4534d2-5578-4ad8-9181-d48132416cef",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "cc": "^3.0.1"
+  }
+}
